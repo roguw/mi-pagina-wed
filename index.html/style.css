@@ -1,0 +1,133 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #ee0d0d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+nav ul li a {
+    color: #fdfafa;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('security-bg.jpg') no-repeat center center/cover;
+    color: #010301;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h2 {
+    font-size: 2.4rem;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.product-card {
+    border: 1px solid #724747;
+    padding: 1px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 60%;
+    height: auto;
+}
+
+#contacto {
+    background-color: #4d4141;
+    padding: 20px;
+}
+
+#contact-form {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #070707;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    color: white;
+}
+
+
+#whatsapp {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#whatsapp a {
+    display: inline-block;
+    background-color: #25D366;
+    color: #0e0c0c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#whatsapp a img {
+    vertical-align: middle;
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+#whatsapp a:hover {
+    background-color: #20c157;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: rgb(209, 185, 185);
+}

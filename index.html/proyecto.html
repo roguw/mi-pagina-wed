@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tienda de Cámaras CCTV</title>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>CCTV Seguridad</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Protege tu hogar o negocio con cámaras CCTV</h2>
+      <p>La mejor tecnología en seguridad al alcance de tu mano.</p>
+    </section>
+
+    <section id="productos" class="productos">
+      <h2>Nuestros Productos</h2>
+      <div class="product-card">
+        <img src="kit de camaras.webp" alt="Cámara CCTV 1" />
+        <h3>Cámara CCTV HD</h3>
+        <p>s/449.50</p>
+        <button onclick="agregarCarrito('Cámara CCTV HD', 120)">
+          Añadir al carrito
+        </button>
+      </div>
+      <div class="product-card">
+        <img src="camaras dh.jpg" alt="Cámara CCTV 2" />
+        <h3>Cámara CCTV 360°</h3>
+        <p>s/672,25</p>
+        <button onclick="agregarCarrito('Cámara CCTV 360°', 180)">
+          Añadir al carrito
+        </button>
+      </div>
+    </section>
+
+    <section id="sobre-nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Somos líderes en seguridad con más de 10 años de experiencia en el
+        mercado.
+      </p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="contact-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 CCTV Seguridad. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
+<div id="whatsapp">
+  <a href="https://wa.me/51955271287" target="_blank">
+      <img src="whatsapp-logo-png.webp" alt="WhatsApp">
+      Contáctanos por WhatsApp
+  </a>
